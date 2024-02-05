@@ -1,0 +1,96 @@
+/*header*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    background-color: #95C29C;
+    margin: 0;
+    width: 100%;
+}
+
+header nav{
+    margin: 0;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 45px;
+    padding-left: 35px;
+    font-family: 'Passion One', sans-serif;
+}
+
+span{
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav span{
+    margin-right: 20px;
+}
+
+/*sign up*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    background: #95C29C;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+    padding: 20px;
+}
+
+label {
+    color: blanchedalmond;
+    font-size: 17px;
+}
+
+.form-control {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+btn btn-primary {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+}
+
+span {
+    color: white;
+    font-size: 17px;
+}
